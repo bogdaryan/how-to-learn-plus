@@ -1,0 +1,51 @@
+.logo {
+	max-width: 228px;
+}
+
+.span-accent {
+	font-weight: 600 ;
+}
+
+.header {
+	height: 100vh;
+	min-height: 600px;
+	max-height: 756px;
+	display: grid;
+	padding: 30px 0 30px 64px;
+	position: relative;
+}
+
+.header::before {
+	content: "";
+	width: 568px;
+	height: 568px;
+	background-color: #2f80ed;
+	position: absolute;
+	right: 0;
+	top: 64px;
+	z-index: -1;
+}
+
+.header__title {
+	max-width: 730px;
+	font-size: 102px;
+	font-weight: 600;
+	line-height: 96px;
+	align-self: center;
+}
+
+.header__subtitle {
+	max-width: 388px;
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 25px;
+	align-self: end;
+}
+
+.header__main-illustration {
+	max-width: 765px;
+	position: absolute;
+	right: 0;
+	bottom: 0;	
+}
+
