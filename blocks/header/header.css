@@ -24,6 +24,10 @@
 	right: 0;
 	top: 64px;
 	z-index: -1;
+	box-shadow: 0 0 15px 5px rgb(74, 74, 74);
+	animation: rotation 20s infinite linear;
+	z-index: -1;
+
 }
 
 .header__title {
@@ -47,5 +51,7 @@
 	position: absolute;
 	right: 0;
 	bottom: 0;	
+	filter: drop-shadow(0 0 10px black);
+	z-index: -1;
 }
 

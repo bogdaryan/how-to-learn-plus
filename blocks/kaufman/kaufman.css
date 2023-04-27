@@ -1,9 +1,31 @@
 .kaufman {
 	padding: 90px 0;
+	position: relative;
+	overflow: hidden;
+}
+
+.kaufman::before {
+	content: '';
+	width: 0;
+    height: 0;
+    border-left: 439px solid transparent;
+    border-right: 439px solid transparent;
+    border-bottom: 877px solid #2f80ed;;
+	position: absolute;
+	right: -210px;
+	top: 0;
+	z-index: 1;
+	animation: rotation 50s infinite linear;
+}
+
+.kaufman__title {
+	position: relative;
+	z-index: 2;
 }
 
 .kaufman__subtitle {
-	margin: 20px 0 60px 0;;
+	position: relative;
+	z-index: 2;
 }
 
 .kaufman--theme_dark {
@@ -15,4 +37,6 @@
 	grid-template-columns: repeat(5, 200px);
 	row-gap: 80px;
 	margin-top: 80px;
+	position: relative;
+	z-index: 2;
 } 

@@ -6,6 +6,7 @@ body{
 .page {
 	font-family: "Inter" , "Arial", sans-serif;
 	font-weight: normal;
+	overflow-x: hidden;
 }
 
 .container {
@@ -18,13 +19,17 @@ body{
 a {
 	color: #2f80ed;
 	text-decoration: none;
+	transition: opacity .2s linear;
+}
+
+a:hover {
+	opacity: .65;
 }
 
 .section-title {
 	width: 60%;
 	margin: 0 auto;
 	font-size: 60px;
-	line-height: 1.15;
 	font-weight: 600;
 	text-align: center;
 }
@@ -39,12 +44,12 @@ a {
 }
 
 .table {
-	max-width: fit-content;
 	margin: 0 auto;
 	display: grid;
 	grid-template-columns: repeat(4, 250px);
 	gap: 60px;
 	margin-top: 60px;
+	justify-content: space-between;
 }
 
 .table__cell {
@@ -55,7 +60,6 @@ a {
 }
 
 .table__heading {
-	line-height: 1.15;
 	font-size: 24px;
 	font-weight: 600;
 }
@@ -64,3 +68,31 @@ a {
 	line-height: 1.2;
 	font-size: 18px;
 }
+
+.two-columns {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+}
+
+.two-columns__brief {
+	max-width: 175px;
+	line-height: 1.2;
+	font-size: 18px;
+	color: #2f80ed;
+}
+
+.two-columns__main-text {
+	width: 80%;
+	min-width: 784px;
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+
+.two-columns__paragraph {
+	font-size: 24px;
+	line-height: 34px;
+}
+
+

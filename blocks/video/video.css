@@ -1,0 +1,16 @@
+.video {
+	background: white;
+	padding-top: 50px;
+}
+
+.iframes {
+	margin-top: 50px;
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+}
+
+.video__container {
+	position: relative;
+	bottom: -50px;
+}
