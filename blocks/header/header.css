@@ -5,4 +5,6 @@
   display: grid;
   padding: 30px 0 30px 64px;
   position: relative;
+  background: var(--main-gray-color);
+  z-index: -1;
 }

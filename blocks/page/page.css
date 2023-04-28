@@ -1,6 +1,7 @@
-body {
-  box-sizing: border-box;
-  background-color: #f2f2f2;
+:root {
+  --main-gray-color: #f2f2f2;
+  --main-black-color: #1f1f1f;
+  --main-blue-color: #2f80ed;
 }
 
 .page {
@@ -11,54 +12,5 @@ body {
   font-family: "Inter", "Arial", sans-serif;
   font-weight: normal;
   overflow-x: hidden;
-  line-height: 1.2;
-}
-
-.link {
-  color: #2f80ed;
-  text-decoration: none;
-  transition: opacity 0.2s linear;
-}
-
-.link:hover {
-  opacity: 0.65;
-}
-
-.width-80 {
-  width: 80%;
-}
-
-.margin-0-auto {
-  margin: 0 auto;
-}
-
-.ptb-100 {
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
-
-.pt-100 {
-  padding-top: 100px;
-}
-
-.pt-90 {
-  padding-top: 90px;
-}
-
-.ptb-90 {
-  padding-top: 90px;
-  padding-bottom: 90px;
-}
-
-.oakley--pt {
-  padding-top: 210px;
-  padding-bottom: 100px;
-}
-
-.bg-white {
-  background: white;
-}
-
-.overflow-hidden {
-  overflow: hidden;
+  line-height: 1.15;
 }

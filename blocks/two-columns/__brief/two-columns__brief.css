@@ -1,5 +1,5 @@
 .two-columns__brief {
   max-width: 175px;
   font-size: 18px;
-  color: #2f80ed;
+  color: var(--main-blue-color);
 }

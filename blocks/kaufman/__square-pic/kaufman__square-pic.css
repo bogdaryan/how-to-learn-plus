@@ -1,9 +1,6 @@
 .kaufman__square-pic {
-  width: 0;
-  height: 0;
-  border-left: 439px solid transparent;
-  border-right: 439px solid transparent;
-  border-bottom: 877px solid #2f80ed;
+  width: 877px;
+  height: 877px;
   position: absolute;
   right: -210px;
   top: 0;
