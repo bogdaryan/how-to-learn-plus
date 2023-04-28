@@ -1,0 +1,7 @@
+.quote-author {
+  width: fit-content;
+  display: block;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}

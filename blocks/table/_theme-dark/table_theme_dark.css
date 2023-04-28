@@ -1,0 +1,7 @@
+.table--theme-dark {
+  grid-template-columns: repeat(5, 200px);
+  row-gap: 80px;
+  margin-top: 80px;
+  position: relative;
+  z-index: 1;
+}

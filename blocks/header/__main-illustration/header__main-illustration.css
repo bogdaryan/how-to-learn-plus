@@ -1,0 +1,8 @@
+.header__main-illustration {
+  max-width: 765px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  filter: drop-shadow(0 0 10px black);
+  z-index: -1;
+}
