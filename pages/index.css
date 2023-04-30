@@ -1,10 +1,15 @@
-@import url("../styles/fonts.css");
-@import url("../styles/rotation.css");
+@import url("../vendors/normalize.css");
+
+@import url("../vendors/fonts.css");
 @import url("../blocks/page/page.css");
+@import url("../blocks/rotation/rotation.css");
 @import url("../blocks/link/link.css");
 
 @import url("../blocks/section-title/section-title.css");
+@import url("../blocks/section-title/_theme/section-title_theme_dark.css");
+
 @import url("../blocks/section-subtitle/section-subtitle.css");
+@import url("../blocks/section-subtitle/_theme/section-subtitle_theme_dark.css");
 
 @import url("../blocks/two-columns/two-columns.css");
 @import url("../blocks/two-columns/__brief/two-columns__brief.css");
@@ -21,7 +26,8 @@
 @import url("../blocks/table/__cell/table__cell.css");
 @import url("../blocks/table/__heading/table__heading.css");
 @import url("../blocks/table/__text/table__text.css");
-@import url("../blocks/table/_theme-dark/table_theme_dark.css");
+@import url("../blocks/table/_theme/__table/table_theme_dark.css");
+@import url("../blocks/table/_theme/__cell/table__cell_theme_dark.css");
 
 @import url("../blocks/header/header.css");
 @import url("../blocks/header/__title/header__title.css");
@@ -58,7 +64,7 @@
 
 @import url("../blocks/kaufman/kaufman.css");
 @import url("../blocks/kaufman/__square-pic/kaufman__square-pic.css");
-@import url("../blocks/kaufman/_theme-dark/kaufman_theme-dark.css");
+@import url("../blocks/kaufman/_theme/kaufman_theme_dark.css");
 
 @import url("../blocks/resources/resources.css");
 @import url("../blocks/resources/__logo-zone/resources__logo-zone.css");
@@ -67,7 +73,7 @@
 
 @import url("../blocks/footer/footer.css");
 @import url("../blocks/footer/__columns/footer__columns.css");
-@import url("../blocks/footer/__column-copyright/footer__column-copyright.css");
+@import url("../blocks/footer/__column-copyright/footer__column_content_copyright.css");
 @import url("../blocks/footer/__author/footer__author.css");
 @import url("../blocks/footer/__column-heading/footer__column-heading.css");
 @import url("../blocks/footer/__column-links/footer__column-links.css");
