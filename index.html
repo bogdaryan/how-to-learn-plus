@@ -11,7 +11,7 @@
 <body>
 	<div class="page">
 		<header class="header">
-			<a class="logo logo_place_header" href="#">
+			<a class="logo logo_place_header link" href="#">
 				<img src="./images/logo_place_header.svg" alt="Яндекс Практикум логотип">
 			</a>
 			<h1 class="header__title">Научиться учиться</h1>
@@ -102,11 +102,11 @@
 					<iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY"
 						title="YouTube video player"
 						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-						allowfullscreen></iframe>
+						allowfullscreen frameborder="0"></iframe>
 					<iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU"
 						title="YouTube video player"
 						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-						allowfullscreen></iframe>
+						allowfullscreen frameborder="0"></iframe>
 				</div>
 			</section>
 			<section class="oakley">
@@ -191,7 +191,7 @@
 					<a class="khan__buy-link link " href="#" target="_blank">Купить книгу &#8594;</a>
 				</div>
 			</section>
-			<section class="kaufman kaufman_theme_dark">
+			<section class="kaufman">
 				<h2 class="section-title section-title_theme_dark">Принципы обучения</h2>
 				<p class="section-subtitle section-subtitle_theme_dark">от Джоша Кауфмана</p>
 				<ul class="table  table_theme_dark">
@@ -237,9 +237,8 @@
 						<p class="table__text  table__text_theme_dark">Уделяйте внимание количеству и скорости.</p>
 					</li>
 				</ul>
-				<svg class="kaufman__square-pic rotation" viewBox="0 0 2 2" preserveAspectRatio="none">
-					<polygon fill="#2f80ed" points="1,0 2,2 0,2" />
-				</svg>
+				<div class="kaufman__square-pic rotation">
+				</div>
 			</section>
 			<section class="resources">
 				<h2 class="section-title">Полезные ресурсы</h2>
@@ -271,13 +270,13 @@
 		</main>
 		<footer class="footer">
 			<div class="footer__columns ">
-				<div class="footer__column_content_copyright">
-					<a class="logo logo_place_footer" href="#">
+				<div class="footer__column footer__column_content_copyright">
+					<a class="logo logo_place_footer link" href="#">
 						<img src="./images/logo_place_footer.svg" alt="Яндекс Практикум логотип">
 					</a>
 					<p class="footer__author">&copy; Богдан</p>
 				</div>
-				<div class="footer__column_content_info">
+				<div class="footer__column footer__column_content_info">
 					<h2 class="footer__column-heading">О Практикуме</h2>
 					<nav>
 						<ul class="footer__column-links">
@@ -287,27 +286,26 @@
 						</ul>
 					</nav>
 				</div>
-				<div class="footer__column_content_social">
+				<div class="footer__column footer__column_content_social">
 					<h2 class="footer__column-heading">Соцсети</h2>
 					<nav>
 						<ul class="footer__column-links">
 							<li>
 								<a class="footer__column-link link" href="#" target="_blank">
-									<img class="footer__social-icon" src="./images/youtube-icon.svg" alt="Иконка Ютуб">
-									<p>YouTube</p>
+									<img class="footer__social-icon" src="./images/youtube-icon.svg" alt="Ютуб">
+									YouTube
 								</a>
 							</li>
 							<li>
 								<a class="footer__column-link link" href="#" target="_blank">
-									<img class="footer__social-icon" src="./images/vk_color_white.svg"
-										alt="Иконка ВКонтакте">
-									<p>ВКонтакте</p>
+									<img class="footer__social-icon" src="./images/vk_color_white.svg" alt="ВКонтакте">
+									ВКонтакте
 								</a>
 							</li>
 							<li>
 								<a class="footer__column-link link" href="#" target="_blank">
-									<img class="footer__social-icon" src="./images/tiktok-icon.svg" alt="Иконка Тикток">
-									<p>TikTok</p>
+									<img class="footer__social-icon" src="./images/tiktok-icon.svg" alt="Тикток">
+									TikTok
 								</a>
 							</li>
 						</ul>

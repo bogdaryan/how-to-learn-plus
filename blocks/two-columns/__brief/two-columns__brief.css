@@ -3,4 +3,6 @@
   font-size: 18px;
   align-self: flex-start;
   color: var(--main-blue-color);
+  margin: 0;
+  font-weight: inherit;
 }

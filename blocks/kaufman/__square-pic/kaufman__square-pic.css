@@ -1,7 +1,10 @@
 .kaufman__square-pic {
   width: 877px;
   height: 877px;
+  background: var(--main-blue-color);
+  clip-path: polygon(50% 0, 100% 100%, 0 100%);
   position: absolute;
+  overflow: hidden;
   right: -210px;
   top: 0;
   z-index: -1;

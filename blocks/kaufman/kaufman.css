@@ -1,4 +1,5 @@
 .kaufman {
+  background: var(--main-black-color);
   padding: 90px 0;
   position: relative;
   z-index: 1;
